@@ -1,8 +1,10 @@
 ## Telegram BOT for FAF (Supreme Commander)
 
-clone [last version](git clone --branch main https://github.com/kayerosaint/faf_tg_bot/) of repository:
+clone last version:
+    
+git clone --branch main https://github.com/kayerosaint/faf_tg_bot/
 
-You need to create in current dir config files with your telegram API and CHAT ID
+Then you need to create in current dir config files with your telegram API and CHAT ID
 
 /config/api_id.cfg
 
