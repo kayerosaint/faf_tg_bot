@@ -34,7 +34,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAA-AAAAA - API
 
 docker-compose up
 
-## Currently, the commands are scripted and supported:
+## Currently, the tg bot commands are scripted and supported:
 
 /play
 /notplay
