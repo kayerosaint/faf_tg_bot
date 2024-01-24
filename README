@@ -1,4 +1,4 @@
-Telegram BOT for FAF (Supreme Commander)
+##Telegram BOT for FAF (Supreme Commander)
 
 You need to create in current dir config files with your telegram API and CHAT ID
 
@@ -6,7 +6,9 @@ You need to create in current dir config files with your telegram API and CHAT I
 
 /config/chat_id.cfg
 
-example:
+![Pay attention to the directory tree](./images/2024-01-24_17-17-26.jpg)
+
+**example for conf files:**
 
 chat_id.cfg
 
@@ -22,6 +24,6 @@ where
 
 AAAAAAAAAAAAAAAAAAAAAAAAA-AAAAA - API
 
-Then just run command:
+##Then just run command:
 
 docker-compose up
