@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+ bot:
+    build: .
+    volumes:
+      - .:/app:cached
+      - ~/.bash_history:/root/.bash_history
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    command: python main.py
+    secrets:
+      - api_id
+      - chat_id
+
+ db:
+    image: postgres:15
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+secrets:
+ api_id:
+    file: ./config/api_id.cfg
+ chat_id:
+    file: ./config/chat_id.cfg
