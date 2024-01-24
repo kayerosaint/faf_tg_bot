@@ -1,4 +1,5 @@
-# faf_tg_bot
+[prod](https://github.com/kayerosaint/faf_tg_bot/tree/prod)
+
 Telegram BOT for FAF (Supreme Commander)
 
 You need to create in current dir config files with your telegram API and CHAT ID
