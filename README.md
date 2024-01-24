@@ -33,3 +33,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAA-AAAAA - API
 ## Then just run command:
 
 docker-compose up
+
+## Currently, the commands are scripted and supported:
+
+/play
+/notplay
+/whoplaytoday
