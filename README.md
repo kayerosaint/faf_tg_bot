@@ -6,6 +6,8 @@ You need to create in current dir config files with your telegram API and CHAT I
 
 /config/chat_id.cfg
 
+_Pay attention to the directory tree_
+
 ![Pay attention to the directory tree.](https://github.com/kayerosaint/faf_tg_bot/blob/main/images/2024-01-24_17-17-26.jpg)
 
 **example for conf files:**
