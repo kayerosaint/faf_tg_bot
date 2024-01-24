@@ -1,4 +1,4 @@
-##Telegram BOT for FAF (Supreme Commander)
+## Telegram BOT for FAF (Supreme Commander)
 
 You need to create in current dir config files with your telegram API and CHAT ID
 
@@ -26,6 +26,6 @@ where
 
 AAAAAAAAAAAAAAAAAAAAAAAAA-AAAAA - API
 
-##Then just run command:
+## Then just run command:
 
 docker-compose up
