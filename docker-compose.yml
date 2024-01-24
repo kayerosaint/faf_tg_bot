@@ -3,6 +3,7 @@ version: '3.9'
 services:
  bot:
     build: .
+    image: kayerosaint/faf-tg-bot:latest
     volumes:
       - .:/app:cached
       - ~/.bash_history:/root/.bash_history
